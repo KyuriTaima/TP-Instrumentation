@@ -183,5 +183,14 @@
 		\label{fig:densite_R1}
 	\end{figure}
 	
-	On constate que cette densité de probabilité peut être supérieure à 1, ça ne pose pas de problème car elle est normalisée par la largeur de chaque barre d'histogramme, or cette valeur peut être inférieure à 1.
+	On constate que cette densité de probabilité peut être supérieure à 1, ça ne pose pas de problème car elle est normalisée par la largeur de chaque barre d'histogramme qui peut être inférieure à 1.
+	
+	\section{Exercice 3: Espérance et variance expérimentale}
+	
+	On calcule l'espérance expérimentale $m$ pour chacun des modes en utilisant la méthode \textit{numpy.mean} on obtient $m_1 = 1.75 \ \mathrm{V}$ et $m_2 = 0.91 \ \mathrm{V}$.
+	Afin de vérifier que cette méthode ne fait que calculer la moyenne arithmétique, on calcule la somme des valeurs de la tension sur le nombre de valeurs. On obtient exactement les mêmes valeurs pour $m_1$ et $m_2$.
+	La moyenne arithmétique utilise les valeurs des mesures obtenues sans effectuer aucune correction, le calcul ne pondère aucune des mesures et calcule une moyenne basique. Cela correspond donc à une moyenne utilisant les données expérimentales sans aucun ajustement statistique, donc à l'espérance expérimentale.
+	On utilise la méthode \textit{numpy.std} afin de calculer l'écart-type expérimental. On obtient $\sigma_1 = 0.26 \ \mathrm{V}$ et $\sigma_2 = 0.52 \ \mathrm{V}$. La variance expérimentale et donnée par $s = \sigma**2$, donc $s_1 = 0.07 \ \mathrm{V}^2$ et $s_2 = 0.27 \ \mathrm{V}^2$. 
+	
+	On vérifie que la méthode \textit{numpy.std} calcule bien l'écart-type selon la formule $s = \sqrt{\frac{1}{n}\sum_{i=1}^{n} (x_i - m)^2}$. On obtient bien les même valeurs que la fonction \textit{numpy.std}.
 \end{document}	

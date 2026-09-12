@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.12)  12 SEP 2026 18:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.12)  12 SEP 2026 22:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -517,18 +517,18 @@ Package epstopdf Info: Source file: <Logo_UF_Physique_cmjn.eps>
 n-eps-converted-to.pdf Logo_UF_Physique_cmjn.eps>
 (epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
-<Logo_UF_Physique_cmjn-eps-converted-to.pdf, id=11, 231.86626pt x 63.23625pt>
+<Logo_UF_Physique_cmjn-eps-converted-to.pdf, id=15, 231.86626pt x 63.23625pt>
 File: Logo_UF_Physique_cmjn-eps-converted-to.pdf Graphic file (type pdf)
 <use Logo_UF_Physique_cmjn-eps-converted-to.pdf>
 Package pdftex.def Info: Logo_UF_Physique_cmjn-eps-converted-to.pdf  used on in
 put line 34.
 (pdftex.def)             Requested size: 208.65646pt x 56.9055pt.
-<logo_lab.png, id=12, 302.12875pt x 204.765pt>
+<logo_lab.png, id=16, 302.12875pt x 204.765pt>
 File: logo_lab.png Graphic file (type png)
 <use logo_lab.png>
 Package pdftex.def Info: logo_lab.png  used on input line 35.
 (pdftex.def)             Requested size: 83.96388pt x 56.9055pt.
-<Logo_LP2iBordeaux.jpg, id=13, 1225.57875pt x 657.45625pt>
+<Logo_LP2iBordeaux.jpg, id=17, 1225.57875pt x 657.45625pt>
 File: Logo_LP2iBordeaux.jpg Graphic file (type jpg)
 <use Logo_LP2iBordeaux.jpg>
 Package pdftex.def Info: Logo_LP2iBordeaux.jpg  used on input line 36.
@@ -537,31 +537,31 @@ Package pdftex.def Info: Logo_LP2iBordeaux.jpg  used on input line 36.
 
 {C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Logo_UF_Ph
 ysique_cmjn-eps-converted-to.pdf> <./logo_lab.png> <./Logo_LP2iBordeaux.jpg>]
-<TensionEnFonctionDuTempsSecondesR1.png, id=31, 416.2752pt x 328.8285pt>
+<TensionEnFonctionDuTempsSecondesR1.png, id=35, 416.2752pt x 328.8285pt>
 File: TensionEnFonctionDuTempsSecondesR1.png Graphic file (type png)
 <use TensionEnFonctionDuTempsSecondesR1.png>
 Package pdftex.def Info: TensionEnFonctionDuTempsSecondesR1.png  used on input 
 line 100.
 (pdftex.def)             Requested size: 218.51521pt x 172.61246pt.
-<TensionEnFonctionDuTempsMinutesR1.png, id=33, 416.2752pt x 328.8285pt>
+<TensionEnFonctionDuTempsMinutesR1.png, id=37, 416.2752pt x 328.8285pt>
 File: TensionEnFonctionDuTempsMinutesR1.png Graphic file (type png)
 <use TensionEnFonctionDuTempsMinutesR1.png>
 Package pdftex.def Info: TensionEnFonctionDuTempsMinutesR1.png  used on input l
 ine 107.
 (pdftex.def)             Requested size: 218.51521pt x 172.61246pt.
-<TensionEnFonctionDuTempsSecondesR2.png, id=34, 409.7709pt x 328.8285pt>
+<TensionEnFonctionDuTempsSecondesR2.png, id=38, 409.7709pt x 328.8285pt>
 File: TensionEnFonctionDuTempsSecondesR2.png Graphic file (type png)
 <use TensionEnFonctionDuTempsSecondesR2.png>
 Package pdftex.def Info: TensionEnFonctionDuTempsSecondesR2.png  used on input 
 line 117.
 (pdftex.def)             Requested size: 218.51521pt x 175.35202pt.
-<TensionEnFonctionDuTempsMinutesR2.png, id=35, 409.7709pt x 328.8285pt>
+<TensionEnFonctionDuTempsMinutesR2.png, id=39, 409.7709pt x 328.8285pt>
 File: TensionEnFonctionDuTempsMinutesR2.png Graphic file (type png)
 <use TensionEnFonctionDuTempsMinutesR2.png>
 Package pdftex.def Info: TensionEnFonctionDuTempsMinutesR2.png  used on input l
 ine 124.
 (pdftex.def)             Requested size: 218.51521pt x 175.35202pt.
-<TensionTrieeR1R2.png, id=37, 409.7709pt x 328.8285pt>
+<TensionTrieeR1R2.png, id=41, 409.7709pt x 328.8285pt>
 File: TensionTrieeR1R2.png Graphic file (type png)
 <use TensionTrieeR1R2.png>
 Package pdftex.def Info: TensionTrieeR1R2.png  used on input line 137.
@@ -575,38 +575,44 @@ l.141
         [1 <./TensionEnFonctionDuTempsSecondesR1.png> <./TensionEnFonctionDuTem
 psMinutesR1.png> <./TensionEnFonctionDuTempsSecondesR2.png> <./TensionEnFonctio
 nDuTempsMinutesR2.png>]
-<./Graphiques/TensionTrieeR1R2Zoom.png, id=57, 1182.66844pt x 624.08156pt>
+<./Graphiques/TensionTrieeR1R2Zoom.png, id=61, 1182.66844pt x 624.08156pt>
 File: ./Graphiques/TensionTrieeR1R2Zoom.png Graphic file (type png)
 <use ./Graphiques/TensionTrieeR1R2Zoom.png>
 Package pdftex.def Info: ./Graphiques/TensionTrieeR1R2Zoom.png  used on input l
 ine 146.
 (pdftex.def)             Requested size: 341.43306pt x 180.16959pt.
  [2 <./TensionTrieeR1R2.png> <./Graphiques/TensionTrieeR1R2Zoom.png>]
-<HistogrammeR1R2.png, id=65, 420.6114pt x 328.8285pt>
+<HistogrammeR1R2.png, id=69, 420.6114pt x 328.8285pt>
 File: HistogrammeR1R2.png Graphic file (type png)
 <use HistogrammeR1R2.png>
 Package pdftex.def Info: HistogrammeR1R2.png  used on input line 155.
 (pdftex.def)             Requested size: 341.43306pt x 266.93668pt.
  [3 <./HistogrammeR1R2.png>]
-<./Graphiques/DensiteR1.png, id=75, 474.8139pt x 328.8285pt>
-File: ./Graphiques/DensiteR1.png Graphic file (type png)
-<use ./Graphiques/DensiteR1.png>
-Package pdftex.def Info: ./Graphiques/DensiteR1.png  used on input line 181.
-(pdftex.def)             Requested size: 341.43306pt x 236.45529pt.
- [4] [5 <./Graphiques/DensiteR1.png>]
-(CR_TP1_SDLC.aux)
+<DensiteR1.png, id=79, 535.5207pt x 328.8285pt>
+File: DensiteR1.png Graphic file (type png)
+<use DensiteR1.png>
+Package pdftex.def Info: DensiteR1.png  used on input line 181.
+(pdftex.def)             Requested size: 341.43306pt x 209.65675pt.
+ [4]
+Overfull \hbox (38.2219pt too wide) in paragraph at lines 195--196
+[]\T1/cmr/m/n/10.95 On vé-ri-fie que la mé-thode \T1/cmr/m/it/10.95 numpy.std \
+T1/cmr/m/n/10.95 cal-cule bien l'écart-type se-lon la for-mule $\OML/cmm/m/it/1
+0.95 s \OT1/cmr/m/n/10.95 = []$\T1/cmr/m/n/10.95 . 
+ []
+
+[5 <./DensiteR1.png>] (CR_TP1_SDLC.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `CR_TP1_SDLC.out' has not changed.
-(rerunfilecheck)             Checksum: FCB0BE1298EEB779196CD5B3432A9C4B;424.
+(rerunfilecheck)             Checksum: 995BA4B5C4294319072DEE11D5A223DF;723.
  ) 
 Here is how much of TeX's memory you used:
  13708 strings out of 467871
- 227070 string characters out of 5418376
+ 226961 string characters out of 5418376
  652482 words of memory out of 5000000
- 42418 multiletter control sequences out of 15000+600000
+ 42417 multiletter control sequences out of 15000+600000
  642357 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,678b,604s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -632,9 +638,9 @@ s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Admin/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Admin/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Admin/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on CR_TP1_SDLC.pdf (6 pages, 500010 bytes).
+Output written on CR_TP1_SDLC.pdf (6 pages, 506798 bytes).
 PDF statistics:
- 446 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 72 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 454 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
+ 80 words of extra memory for PDF output out of 10000 (max. 10000000)
 
