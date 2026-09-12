@@ -1,5 +1,3 @@
-from turtledemo.chaos import plot
-
 import scipy as sci
 import numpy as np
 import matplotlib.pyplot as plt
