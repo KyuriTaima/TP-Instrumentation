@@ -193,4 +193,27 @@
 	On utilise la méthode \textit{numpy.std} afin de calculer l'écart-type expérimental. On obtient $\sigma_1 = 0.26 \ \mathrm{V}$ et $\sigma_2 = 0.52 \ \mathrm{V}$. La variance expérimentale et donnée par $s = \sigma**2$, donc $s_1 = 0.07 \ \mathrm{V}^2$ et $s_2 = 0.27 \ \mathrm{V}^2$. 
 	
 	On vérifie que la méthode \textit{numpy.std} calcule bien l'écart-type selon la formule $s = \sqrt{\frac{1}{n}\sum_{i=1}^{n} (x_i - m)^2}$. On obtient bien les même valeurs que la fonction \textit{numpy.std}.
+	
+	\section{Exercice 4}
+	
+	On superpose à l'histogramme des mesures de Rameau 1 et Rameau 2 une distribution gaussienne selon l'équation: 
+	$$P(x) = \frac{1}{\sqrt{2 \pi \bar{x}}} e^{\frac{-(x-\bar{x})^2}{2 \sigma_x^2}}$$
+	
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}{0.48\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{FitGaussienR1.png}
+			\caption{Fit gaussien des mesures de Rameau 1 (densité de probabilité)}
+			\label{fig:fitGauss1}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}{0.48\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{FitGaussienR2.png}
+			\caption{Fit gaussien des mesures de Rameau 1 (densité de probabilité)}
+			\label{fig:fitGauss2}
+		\end{subfigure}
+	\end{figure}
+	
 \end{document}	
