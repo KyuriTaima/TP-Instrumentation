@@ -199,6 +199,9 @@
 	On superpose à l'histogramme des mesures de Rameau 1 et Rameau 2 une distribution gaussienne selon l'équation: 
 	$$P(x) = \frac{1}{\sqrt{2 \pi \bar{x}}} e^{\frac{-(x-\bar{x})^2}{2 \sigma_x^2}}$$
 	
+	On détermine l'asymétrie des deux distributions avec la fonction \textit{scipy.skew} et on obtient -0.03 pour Rameau 1 et 0.78 pour Rameau 2. De même, on détermine l'aplatissement des courbes selon les deux modes, on obtient 0.17 pour Rameau 1 et 0.36 pour Rameau 2.
+	On peut donc considérer que le mode Rameau 1 suit une loi gaussienne et donc que l'on peut modéliser la distribution directe de l'erreur de mesure par une loi normale. Le mode Rameau 2 est cependant trop asymétrique et trop aplatit pour utilisé cette distribution.
+	
 	\begin{figure}[H]
 		\centering
 		\begin{subfigure}{0.48\textwidth}
@@ -211,8 +214,29 @@
 		\begin{subfigure}{0.48\textwidth}
 			\centering
 			\includegraphics[width=\linewidth]{FitGaussienR2.png}
-			\caption{Fit gaussien des mesures de Rameau 1 (densité de probabilité)}
+			\caption{Fit gaussien des mesures de Rameau 2 (densité de probabilité)}
 			\label{fig:fitGauss2}
+		\end{subfigure}
+	\end{figure}
+	
+	\section{Exercice 5}
+	
+	On détermine la médiane des deux jeux de données, on obtient $1.75 \ \mathrm{V}$ pour Rameau 1 et $0.82 \ \mathrm{V}$ pour Rameau 2. On peut comparer ces valeurs aux moyennes calculées en Exercice 1 et on constate que la moyenne et la médiane sont égales pour Rameau 1 tandis qu'elles ont un écart de $0.09 \ \mathrm{V}$ pour Rameau 2. On peut donc en conclure que la densité de probabilité s'écarte d'une forme de gaussienne lorsque la médiane et la moyenne diffèrent. On calcule les 1ers et 3èmes quartiles pour chacune des distributions, pour Rameau 1, $Q_1 = 1.58 \ \mathrm{V}$ et  $Q_3 = 1.92 \ \mathrm{V}$, et pour Rameau 2,  $Q_1 = 0.52 \ \mathrm{V}$ et  $Q_3 = 1.23 \ \mathrm{V}$. Le deuxième quartile est égal à la médiane. On représente ensuite la densité de probabilité cumulative pour les deux modes en figures \ref{fig:fitGaussCumul1} et \ref{fig:fitGaussCumul2}.
+	
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}{0.48\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{FitGaussienCumulatifR1.png}
+			\caption{Densités de probabilités cumulatives des mesures de Rameau 1}
+			\label{fig:fitGaussCumul1}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}{0.48\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{FitGaussienCumulatifR2.png}
+			\caption{Densités de probabilités cumulatives des mesures de Rameau 2}
+			\label{fig:fitGaussCumul2}
 		\end{subfigure}
 	\end{figure}
 	
