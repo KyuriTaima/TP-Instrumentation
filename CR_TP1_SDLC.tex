@@ -240,4 +240,106 @@
 		\end{subfigure}
 	\end{figure}
 	
+	\section{Exercice 6}
+	
+	On effectue une unique mesure sur une nouvelle radiosource et on obtient $U_{mesure} = 3.14 \ \mathrm{V}$. Le mode 1 est caractérisé par une loi normale, on peut donc utiliser l'écart-type pour représenter l'incertitude de $0.26 \ \mathrm{V}$. Le rapport signal sur bruit est alors défini par: $\frac{S}{B} = \frac{\mu_1}{\sigma_1} = \frac{3.14}{0.26} = 12.23 \approx 10$ pour le mode Rameau 1, et $\frac{S}{B} = \frac{3.14}{\sigma_{68}} = \frac{3.14}{1.09} = 2.88 \approx 3$
+	
+	On détermine ensuite pour Rameau 2 une incertitude qui enclose 68\% de probabilité. Pour cela on regarde les valeurs en tension correspondant au 16e et 84e percentiles. $Q_{16} = 0.39 \ \mathrm{V}$ et  $Q_{84} = 1.45 \ \mathrm{V}$. On peut ensuite comparer ces valeurs à la médiane pour obtenir l'erreur inférieure et supérieure et on obtient finalement: $U_2 = 3.14^{+0.63}_{-0.43} \ \mathrm{V}$
+	
+	On peut ensuite effectuer la même démarche pour les intervalles à 90\%, 95\% et 99\%:
+	
+	A 90\%: $U_1 = 3.14\pm 0.43 \ \mathrm{V}$ et $U_2 = 3.14^{+1.09}_{-0.61} \ \mathrm{V}$
+	
+	A 95\%: $U_1 = 3.14\pm 0.51 \ \mathrm{V}$ et $U_2 = 3.14^{+1.30}_{-0.66} \ \mathrm{V}$
+	
+	A 99\%: $U_1 = 3.14^{+0.67}_{-0.68} \ \mathrm{V}$ et $U_2 = 3.14^{+1.71}_{-0.75} \ \mathrm{V}$
+	
+	\section{Exercice 7}
+	
+	Pour conclure, si je ne pouvais effectuer qu'une seule mesure sur une radiosource inconnue, j'utiliserais le mode Rameau 1 de détection synchrone car ce mode me permet d'avoir une incertitude inférieure à l'incertitude issue du mode Rameau 2. De plus, le rapport signal sur bruit est trois fois supérieur sur le mode Rameau 1 par rapport au mode Rameau 2.
+	
+	\section{TP 2: Corrélation, autocorrélation et somme de variables}
+	
+	\subsection{Exercice 2.1 Corrélation : radiotéléscope Rameau}
+	
+	On représente le nuage de corrélation entre les tensions mesurées par les deux modes en figure \ref{fig:correlation}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{correlation_rameaux.png}
+		\caption{Nuage de corrélation des tensions des deux modes Rameau}
+		\label{fig:correlation}
+	\end{figure}
+	
+	le nuage n'est pas incliné, ce qui indique que les grandeurs ne sont pas corrélées.  On calcule maintenant le coefficient de corrélation expérimental de $v_1$ et $v_2$ et on obtient $c_{12} = -0.02$. C'est cohérent avec la forme du nuage de point qui n'est pas inclinée.
+	
+	\subsection{Exercice 2.2: Corrélation : Image de Saturne}
+	
+	On importe l'image de Saturne dans python, ses dimensions sont de (480, 617, 4). On affiche ensuite séparément les composantes R,V et B en figure \ref{fig:RVB}
+	
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}{0.48\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{ComposanteRouge.png}
+			\caption{Intensité pour la composante rouge}
+			\label{fig:composanteRougeSaturne}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}{0.48\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{ComposanteVerte.png}
+			\caption{Intensité pour la composante verte}
+			\label{fig:composanteVerteSatune}
+		\end{subfigure}
+				\begin{subfigure}{0.48\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{ComposanteBleue.png}
+			\caption{Intensité pour la composante bleue}
+			\label{fig:composanteBleueSatune}
+		\end{subfigure}
+		\label{fig:RVB}
+	\end{figure}
+	
+	On représente ensuite les histogrammes des densité de probabilité pour les différentes composantes de couleurs en figure \ref{fig:histoRVB}.
+	
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}{0.48\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{DensiteR.png}
+			\caption{Densité de probabilité pour la composante rouge}
+			\label{fig:densiteR}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}{0.48\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{DensiteG.png}
+			\caption{Densité de probabilité pour la composante verte}
+			\label{fig:densiteV}
+		\end{subfigure}
+		\begin{subfigure}{0.48\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{DensiteB.png}
+			\caption{Densité de probabilité pour la composante rouge}
+			\label{fig:densiteB}
+		\end{subfigure}
+		\label{fig:histoRVB}
+	\end{figure}
+	
+	On peut voir que les trois couleurs possèdent un pic à 0, ce qui est cohérent avec l'image qui affiche beaucoup de noir pour le fond derrière Saturne. Il y a peu de bleu et plus de rouge ce qui est attendu car Saturne est légèrement rougeâtre.
+	
+	On trace le nuage de corrélation entre les composantes rouges et bleues en figure \ref{fig:correlationRB}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{correlationRB.png}
+		\caption{Nuage de corrélation entre la composante rouge et la composante bleue}
+		\label{fig:correlationRB}
+	\end{figure}
+	
+	Le nuage de corrélation est incliné donc il semble y avoir une corrélation entre les composantes rouges et les composantes bleues. C'est normal car afin de composer un pixel, on compose avec les trois couleurs, et les couleurs sur Saturne varient de manière douce, donc lorsque l'on change de couleur sur Saturne en passant d'une zone à une autre, les composantes varient toutes. On calcule aussi le coefficient de corrélation entre le rouge et le bleu: $c_{rb} = 0.96$, ce qui est cohérent avec le nuage de point car il indique une forte corrélation entre les deux composantes de couleurs.
+
+	
+	
 \end{document}	
