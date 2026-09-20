@@ -366,4 +366,26 @@
 	
 	On considère qu'un signal et sa copie son décorrélés lorsque la fonction d'autocorrélation normalisée tombe en-dessous des 10\%	. Le temps caractéristique de décorrélation pour Rameau 1 est de 28.4 s et pour Rameau 2 de 3.6 s. Cela représente 142 mesures pour Rameau 1 et 18 mesures pour Rameau 2. Deux mesures successives sont bien indépendantes pour les deux modes. Les signaux sont totalement corrélées à l'instant t = 0 car on compare le signal avec une copie identique de celui-ci, puis la corrélation baisse rapidement. On voit apparaitre un bruit statistique important pour les derniers points car on ne compare plus que quelques points entre eux ce qui augmente grandement l'erreur statistique.
 	
+	\subsection{Exercice 2.4: Somme de variables}
+	
+	On construit maintenant le signal $v3 = v1 + v2$. Donc le signal est composé de la somme des tensions à chaque pas de temps $t$. Son espérance expérimentale $m_3$ est calculée en faisant la moyenne arithmétique de $v_3$, on obtient $2.66 \ \mathrm{V}$. Elle est identique à la somme des espérances $m_1 + m_2$, ce qui est attendu par la théorie lorsque deux variables sont décorrélées.
+	L'écart-type $s_3$ est de $0.58 \ \mathrm{V}$ tandis que la somme des écart-types $s_2 + s_3$ est de $0.78 \ \mathrm{V}$. C'est aussi attendu car l'écart-type de la somme est égal à la racine de la somme quadratique des écart-types avec un terme supplémentaire de covariance et non à la somme des écart-types. Ce que l'on retrouve bien car $s_3^2 = 0.33 \ \mathrm{V}$ et $s_1^2 + s_2^2 = 0.34 \ \mathrm{V}$. Et en rajoutant la covariance on a bien $s_1^2 + s_2^2 + cov(s_1,s_2)= 0.33 \ \mathrm{V}$.
+	
+	On effectue les mêmes calculs pour le signal $r + b$ qui ont un facteur de corrélation plus important. Les résultats sont disponibles en tableau \ref{tab:resultatsCorrelRB}.
+	
+	\begin{table}[H]
+		\label{tab:resultatsCorrelRB}
+		\begin{tabular}{|l|l|l|l|}
+			\hline
+			& Espérance & Ecart-type & Variance \\ \hline
+			r                    & 0.21      & 0.30       & 0.09     \\ \hline
+			b                    & 0.11      & 0.15       & 0.02     \\ \hline
+			r + b                & 0.32      & 0.44       & 0.20     \\ \hline
+			r et b               & 0.32      & 0.45       & 0.11     \\ \hline
+			r et b et covariance & -         & -          & 0.20	 \\ \hline
+		\end{tabular}
+	\end{table}
+	
+	
+	
 \end{document}	
