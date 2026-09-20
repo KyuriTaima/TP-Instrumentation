@@ -342,16 +342,28 @@
 	
 	\subsection{Exercice 2.3}
 	
-	On détermine le facteur d'autocorrélation des modes 1 et 2 que l'on trace sur le même graphique en fonction du temps en figure \ref{fig:autocorrel12}
+	On détermine le facteur d'autocorrélation des modes 1 et 2 que l'on trace sur le même graphique en fonction du temps en figure \ref{fig:autocorrel12}.
+	On mesure les temps à partir desquels l'autocorrélation normalisée atteint les 50\%, 25\% et 10\% pour les deux modes en tableau \ref{tab:temps_autocorrelation}.
+	
+	\begin{table}[htbp]
+		\centering
+		\caption{Temps d'autocorrélation pour les modes 1 et 2.}
+		\label{tab:temps_autocorrelation}
+		\begin{tabular}{|l|l|l|l|}
+			\hline
+			& 50 \% & 25 \% & 10 \% \\ \hline
+			Rameau 1 & 2 s & 3.2 s & 28.4 s \\ \hline
+			Rameau 2 & 1.2 s & 2 s & 3.6 s \\ \hline
+		\end{tabular}
+	\end{table}
+	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=12cm]{Autocorrel12.png}
-		\caption{Facteur d'autocorreléation des modes 1 et 2 en fonction du temps.}
+		\caption{Facteur d'autocorrélation des modes 1 et 2 en fonction du temps.}
 		\label{fig:autocorrel12}
 	\end{figure}
 	
-	
-
-	
+	On considère qu'un signal et sa copie son décorrélés lorsque la fonction d'autocorrélation normalisée tombe en-dessous des 10\%	. Le temps caractéristique de décorrélation pour Rameau 1 est de 28.4 s et pour Rameau 2 de 3.6 s. Cela représente 142 mesures pour Rameau 1 et 18 mesures pour Rameau 2. Deux mesures successives sont bien indépendantes pour les deux modes. Les signaux sont totalement corrélées à l'instant t = 0 car on compare le signal avec une copie identique de celui-ci, puis la corrélation baisse rapidement. On voit apparaitre un bruit statistique important pour les derniers points car on ne compare plus que quelques points entre eux ce qui augmente grandement l'erreur statistique.
 	
 \end{document}	
