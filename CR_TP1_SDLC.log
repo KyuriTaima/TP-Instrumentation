@@ -1,152 +1,153 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.12)  20 SEP 2026 20:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.1)  1 OCT 2026 14:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./CR_TP1_SDLC.tex
 (CR_TP1_SDLC.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-12-24>
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+L3 programming layer <2026-04-28>
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
 File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count275
-\c@section=\count276
-\c@subsection=\count277
-\c@subsubsection=\count278
-\c@paragraph=\count279
-\c@subparagraph=\count280
-\c@figure=\count281
-\c@table=\count282
+\c@part=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\bibindent=\dimen148
+\bibindent=\dimen150
 )
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLa
-TeX and XeLaTeX
-\babel@savecnt=\count283
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2026/05/20 v26.8 The multilingual framework for LuaLaTeX, pdfLaT
+eX and XeLaTeX
+\babel@savecnt=\count284
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2068.
+ne 2084.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2070.
+ne 2086.
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2072.
+e 2088.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2073.
+e 2089.
 LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2074.
+on input line 2090.
 LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2076.
+on input line 2092.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2101.
-\U@D=\dimen149
+on input line 2117.
+\U@D=\dimen151
 \l@unhyphenated=\language79
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count284
+\bbl@dirlevel=\count285
 Package babel Info: Configuration files are deprecated, as
 (babel)             they can break document portability.
-(babel)             Reported on input line 4196.
+(babel)             Reported on input line 4228.
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\babel
--french.tex)
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\babe
+l-french.tex)
 Package babel Info: Importing font and identification data for french
-(babel)             from babel-fr.ini. Reported on input line 4320.
+(babel)             from babel-fr.ini. Reported on input line 4356.
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french.l
-df
-Language: french 2026-06-06 v4.1a French support from the babel system
-
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french3.
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french.
 ldf
-Language: french 2026-06-06 v3.7f French support from the babel system
-\FB@stdchar=\count285
-Package babel Info: Making : an active character on input line 266.
-Package babel Info: Making ; an active character on input line 267.
-Package babel Info: Making ! an active character on input line 268.
-Package babel Info: Making ? an active character on input line 269.
-\FBguill@level=\count286
+Language: french 2025-08-15 v4.0e French support from the babel system
+
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french3
+.ldf
+Language: french 2025-08-15 v3.7e French support from the babel system
+\FB@stdchar=\count286
+Package babel Info: Making : an active character on input line 273.
+Package babel Info: Making ; an active character on input line 274.
+Package babel Info: Making ! an active character on input line 275.
+Package babel Info: Making ? an active character on input line 276.
+\FBguill@level=\count287
 \FBold@everypar=\toks17
-\FB@Mht=\dimen150
-\mc@charclass=\count287
-\mc@charfam=\count288
-\mc@charslot=\count289
-\std@mcc=\count290
-\dec@mcc=\count291
-\listindentFB=\dimen151
-\descindentFB=\dimen152
-\labelwidthFB=\dimen153
-\labelfullwidthFB=\dimen154
-\FB@pardim=\dimen155
-\parindentFFN=\dimen156
-\FBfnindent=\dimen157
+\FB@Mht=\dimen152
+\mc@charclass=\count288
+\mc@charfam=\count289
+\mc@charslot=\count290
+\std@mcc=\count291
+\dec@mcc=\count292
+\FB@pardim=\dimen153
+\listindentFB=\dimen154
+\descindentFB=\dimen155
+\labelindentFB=\dimen156
+\labelwidthFB=\dimen157
+\leftmarginFB=\dimen158
+\parindentFFN=\dimen159
+\FBfnindent=\dimen160
 )))
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2026/03/07 v6.0 Page Geometry
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
 )
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count292
-\Gm@cntv=\count293
-\c@Gm@tempcnt=\count294
-\Gm@bindingoffset=\dimen158
-\Gm@wd@mp=\dimen159
-\Gm@odd@mp=\dimen160
-\Gm@even@mp=\dimen161
-\Gm@layoutwidth=\dimen162
-\Gm@layoutheight=\dimen163
-\Gm@layouthoffset=\dimen164
-\Gm@layoutvoffset=\dimen165
+\Gm@cnth=\count293
+\Gm@cntv=\count294
+\c@Gm@tempcnt=\count295
+\Gm@bindingoffset=\dimen161
+\Gm@wd@mp=\dimen162
+\Gm@odd@mp=\dimen163
+\Gm@even@mp=\dimen164
+\Gm@layoutwidth=\dimen165
+\Gm@layoutheight=\dimen166
+\Gm@layouthoffset=\dimen167
+\Gm@layoutvoffset=\dimen168
 \Gm@dimlist=\toks19
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)
+) (C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
-\ex@=\dimen166
+\ex@=\dimen169
 ))
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen167
+\pmbraise@=\dimen170
 )
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count295
+\inf@bad=\count296
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count296
-\leftroot@=\count297
+\uproot@=\count297
+\leftroot@=\count298
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count298
-\DOTSCASE@=\count299
+\classnum@=\count299
+\DOTSCASE@=\count300
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -156,30 +157,30 @@ LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen168
+\big@size=\dimen171
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count300
+\macc@depth=\count301
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count301
+\c@MaxMatrixCols=\count302
 \dotsspace@=\muskip17
-\c@parentequation=\count302
-\dspbrk@lvl=\count303
+\c@parentequation=\count303
+\dspbrk@lvl=\count304
 \tag@help=\toks21
-\row@=\count304
-\column@=\count305
-\maxfields@=\count306
+\row@=\count305
+\column@=\count306
+\maxfields@=\count307
 \andhelp@=\toks22
-\eqnshift@=\dimen169
-\alignsep@=\dimen170
-\tagshift@=\dimen171
-\tagwidth@=\dimen172
-\totwidth@=\dimen173
-\lineht@=\dimen174
+\eqnshift@=\dimen172
+\alignsep@=\dimen173
+\tagshift@=\dimen174
+\tagwidth@=\dimen175
+\totwidth@=\dimen176
+\lineht@=\dimen177
 \@envbody=\toks23
 \multlinegap=\skip52
 \multlinetaggap=\skip53
@@ -187,152 +188,157 @@ LaTeX Info: Redefining \Relbar on input line 970.
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
 )
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.
+cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.de
+f
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen175
-\Gin@req@width=\dimen176
+\Gin@req@height=\dimen178
+\Gin@req@width=\dimen179
 )
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2026-04-24 v7.01q Hypertext links for LaTeX
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.st
+y
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
-keys.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefin
+ekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
-ty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.
+sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmd
+s.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
-ty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.
+sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ))
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
-lestring.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\getti
+tlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.st
+y
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count307
+\c@section@level=\count308
 )
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count308
+\etb@tempcnta=\count309
 )
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
-ty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.
+sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen177
-\Hy@linkcounter=\count309
-\Hy@pagecounter=\count310
- (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+\@linkdim=\dimen180
+\Hy@linkcounter=\count310
+\Hy@pagecounter=\count311
+
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+)
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count311
- (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+\Hy@SavedSpaceFactor=\count312
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4066.
-Package hyperref Info: Hyper figures OFF on input line 4195.
-Package hyperref Info: Link nesting OFF on input line 4200.
-Package hyperref Info: Hyper index ON on input line 4203.
-Package hyperref Info: Plain pages OFF on input line 4210.
-Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4070.
+Package hyperref Info: Hyper figures OFF on input line 4199.
+Package hyperref Info: Link nesting OFF on input line 4204.
+Package hyperref Info: Hyper index ON on input line 4207.
+Package hyperref Info: Plain pages OFF on input line 4214.
+Package hyperref Info: Backreferencing OFF on input line 4219.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count312
+Package hyperref Info: Bookmarks ON on input line 4466.
+\c@Hy@tempcnt=\count313
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen178
+LaTeX Info: Redefining \url on input line 4805.
+\XeTeXLinkMargin=\dimen181
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
-.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcal
+c.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count313
-\Field@Width=\dimen179
-\Fld@charsize=\dimen180
-Package hyperref Info: Hyper figures OFF on input line 6078.
-Package hyperref Info: Link nesting OFF on input line 6083.
-Package hyperref Info: Hyper index ON on input line 6086.
-Package hyperref Info: backreferencing OFF on input line 6093.
-Package hyperref Info: Link coloring ON on input line 6096.
-Package hyperref Info: Link coloring with OCG OFF on input line 6103.
-Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count314
-\c@Item=\count315
-\c@Hfootnote=\count316
+\Fld@menulength=\count314
+\Field@Width=\dimen182
+\Fld@charsize=\dimen183
+Package hyperref Info: Hyper figures OFF on input line 6091.
+Package hyperref Info: Link nesting OFF on input line 6096.
+Package hyperref Info: Hyper index ON on input line 6099.
+Package hyperref Info: backreferencing OFF on input line 6106.
+Package hyperref Info: Link coloring ON on input line 6109.
+Package hyperref Info: Link coloring with OCG OFF on input line 6116.
+Package hyperref Info: PDF/A mode OFF on input line 6121.
+\Hy@abspage=\count315
+\c@Item=\count316
+\c@Hfootnote=\count317
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count317
-\c@bookmark@seq@number=\count318
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2026-04-24 v7.01q Hyperref driver for pdfTeX
+\Fld@listcount=\count318
+\c@bookmark@seq@number=\count319
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
-echeck.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfi
+lecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
-ounter.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\unique
+counter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -340,10 +346,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip54
 )
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 )
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
 \f@nch@headwidth=\skip55
@@ -361,51 +367,49 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthC=\skip67
 \f@nch@widthR=\skip68
 \@temptokenb=\toks25
-)
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+) (C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.st
+y
 Package: setspace 2022/12/04 v6.7b set line spacing
-)
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+) (C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count319
+\c@float@type=\count320
 \float@exts=\toks26
 \float@box=\box55
 \@float@everytoks=\toks27
 \@floatcapt=\box56
 )
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
-
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen181
-\captionmargin=\dimen182
-\caption@leftmargin=\dimen183
-\caption@rightmargin=\dimen184
-\caption@width=\dimen185
-\caption@indent=\dimen186
-\caption@parindent=\dimen187
-\caption@hangindent=\dimen188
+\caption@tempdima=\dimen184
+\captionmargin=\dimen185
+\caption@leftmargin=\dimen186
+\caption@rightmargin=\dimen187
+\caption@width=\dimen188
+\caption@indent=\dimen189
+\caption@parindent=\dimen190
+\caption@hangindent=\dimen191
 Package caption Info: Standard document class detected.
 Package caption Info: french babel package is loaded.
 )
-\c@caption@flags=\count320
-\c@continuedfloat=\count321
+\c@caption@flags=\count321
+\c@continuedfloat=\count322
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count322
+\c@subfigure=\count323
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count323
+\c@subtable=\count324
 )
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count324
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
+ftex.def
+File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count325
 ) (CR_TP1_SDLC.aux
 Package babel Info: 'french' activates 'french' shorthands.
 (babel)             Reported on input line 11.
@@ -467,38 +471,41 @@ LaTeX Info: Redefining \degres on input line 31.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
+kii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count325
-\scratchdimen=\dimen189
+\scratchcounter=\count326
+\scratchdimen=\dimen192
 \scratchbox=\box57
-\nofMPsegments=\count326
-\nofMParguments=\count327
+\nofMPsegments=\count327
+\nofMParguments=\count328
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count328
-\MPscratchDim=\dimen190
-\MPnumerator=\count329
-\makeMPintoPDFobject=\count330
+\MPscratchCnt=\count329
+\MPscratchDim=\dimen193
+\MPnumerator=\count330
+\makeMPintoPDFobject=\count331
 \everyMPtoPDFconversion=\toks29
 )
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
+base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.
+cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+))
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
-)
+
+(C:\Users\Lucile\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx
+))
 Package hyperref Info: Link coloring ON on input line 31.
  (CR_TP1_SDLC.out) (CR_TP1_SDLC.out)
 \@outlinefile=\write3
@@ -507,61 +514,61 @@ Package hyperref Info: Link coloring ON on input line 31.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package epstopdf Info: Source file: <Logo_UF_Physique_cmjn.eps>
-(epstopdf)                    date: 2026-07-04 00:55:52
+(epstopdf)                    date: 2026-09-16 23:06:52
 (epstopdf)                    size: 1932474 bytes
 (epstopdf)             Output file: <Logo_UF_Physique_cmjn-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2026-09-12 14:58:37
+(epstopdf)                    date: 2026-09-16 23:06:52
 (epstopdf)                    size: 22576 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Logo_UF_Physique_cmj
 n-eps-converted-to.pdf Logo_UF_Physique_cmjn.eps>
 (epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
-<Logo_UF_Physique_cmjn-eps-converted-to.pdf, id=51, 231.86626pt x 63.23625pt>
+<Logo_UF_Physique_cmjn-eps-converted-to.pdf, id=59, 231.86626pt x 63.23625pt>
 File: Logo_UF_Physique_cmjn-eps-converted-to.pdf Graphic file (type pdf)
 <use Logo_UF_Physique_cmjn-eps-converted-to.pdf>
 Package pdftex.def Info: Logo_UF_Physique_cmjn-eps-converted-to.pdf  used on in
 put line 34.
 (pdftex.def)             Requested size: 208.65646pt x 56.9055pt.
-<logo_lab.png, id=52, 302.12875pt x 204.765pt>
+<logo_lab.png, id=60, 302.12875pt x 204.765pt>
 File: logo_lab.png Graphic file (type png)
 <use logo_lab.png>
 Package pdftex.def Info: logo_lab.png  used on input line 35.
 (pdftex.def)             Requested size: 83.96388pt x 56.9055pt.
-<Logo_LP2iBordeaux.jpg, id=53, 1225.57875pt x 657.45625pt>
+<Logo_LP2iBordeaux.jpg, id=61, 1225.57875pt x 657.45625pt>
 File: Logo_LP2iBordeaux.jpg Graphic file (type jpg)
 <use Logo_LP2iBordeaux.jpg>
 Package pdftex.def Info: Logo_LP2iBordeaux.jpg  used on input line 36.
 (pdftex.def)             Requested size: 106.07094pt x 56.9055pt.
  [1
 
-{C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Logo_UF_Ph
-ysique_cmjn-eps-converted-to.pdf> <./logo_lab.png> <./Logo_LP2iBordeaux.jpg>]
-<TensionEnFonctionDuTempsSecondesR1.png, id=71, 416.2752pt x 328.8285pt>
+{C:/Users/Lucile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Logo_UF_P
+hysique_cmjn-eps-converted-to.pdf> <./logo_lab.png> <./Logo_LP2iBordeaux.jpg>]
+<TensionEnFonctionDuTempsSecondesR1.png, id=79, 416.2752pt x 328.8285pt>
 File: TensionEnFonctionDuTempsSecondesR1.png Graphic file (type png)
 <use TensionEnFonctionDuTempsSecondesR1.png>
 Package pdftex.def Info: TensionEnFonctionDuTempsSecondesR1.png  used on input 
 line 100.
 (pdftex.def)             Requested size: 218.51521pt x 172.61246pt.
-<TensionEnFonctionDuTempsMinutesR1.png, id=73, 416.2752pt x 328.8285pt>
+<TensionEnFonctionDuTempsMinutesR1.png, id=81, 416.2752pt x 328.8285pt>
 File: TensionEnFonctionDuTempsMinutesR1.png Graphic file (type png)
 <use TensionEnFonctionDuTempsMinutesR1.png>
 Package pdftex.def Info: TensionEnFonctionDuTempsMinutesR1.png  used on input l
 ine 107.
 (pdftex.def)             Requested size: 218.51521pt x 172.61246pt.
-<TensionEnFonctionDuTempsSecondesR2.png, id=74, 409.7709pt x 328.8285pt>
+<TensionEnFonctionDuTempsSecondesR2.png, id=82, 409.7709pt x 328.8285pt>
 File: TensionEnFonctionDuTempsSecondesR2.png Graphic file (type png)
 <use TensionEnFonctionDuTempsSecondesR2.png>
 Package pdftex.def Info: TensionEnFonctionDuTempsSecondesR2.png  used on input 
 line 117.
 (pdftex.def)             Requested size: 218.51521pt x 175.35202pt.
-<TensionEnFonctionDuTempsMinutesR2.png, id=75, 409.7709pt x 328.8285pt>
+<TensionEnFonctionDuTempsMinutesR2.png, id=83, 409.7709pt x 328.8285pt>
 File: TensionEnFonctionDuTempsMinutesR2.png Graphic file (type png)
 <use TensionEnFonctionDuTempsMinutesR2.png>
 Package pdftex.def Info: TensionEnFonctionDuTempsMinutesR2.png  used on input l
 ine 124.
 (pdftex.def)             Requested size: 218.51521pt x 175.35202pt.
-<TensionTrieeR1R2.png, id=77, 409.7709pt x 328.8285pt>
+<TensionTrieeR1R2.png, id=85, 409.7709pt x 328.8285pt>
 File: TensionTrieeR1R2.png Graphic file (type png)
 <use TensionTrieeR1R2.png>
 Package pdftex.def Info: TensionTrieeR1R2.png  used on input line 137.
@@ -575,20 +582,20 @@ l.141
         [1 <./TensionEnFonctionDuTempsSecondesR1.png> <./TensionEnFonctionDuTem
 psMinutesR1.png> <./TensionEnFonctionDuTempsSecondesR2.png> <./TensionEnFonctio
 nDuTempsMinutesR2.png>]
-<./Graphiques/TensionTrieeR1R2Zoom.png, id=97, 1182.66844pt x 624.08156pt>
+<./Graphiques/TensionTrieeR1R2Zoom.png, id=105, 1182.66844pt x 624.08156pt>
 File: ./Graphiques/TensionTrieeR1R2Zoom.png Graphic file (type png)
 <use ./Graphiques/TensionTrieeR1R2Zoom.png>
 Package pdftex.def Info: ./Graphiques/TensionTrieeR1R2Zoom.png  used on input l
 ine 146.
 (pdftex.def)             Requested size: 341.43306pt x 180.16959pt.
  [2 <./TensionTrieeR1R2.png> <./Graphiques/TensionTrieeR1R2Zoom.png>]
-<HistogrammeR1R2.png, id=105, 420.6114pt x 328.8285pt>
+<HistogrammeR1R2.png, id=113, 420.6114pt x 328.8285pt>
 File: HistogrammeR1R2.png Graphic file (type png)
 <use HistogrammeR1R2.png>
 Package pdftex.def Info: HistogrammeR1R2.png  used on input line 155.
 (pdftex.def)             Requested size: 341.43306pt x 266.93668pt.
  [3 <./HistogrammeR1R2.png>]
-<DensiteR1.png, id=115, 535.5207pt x 328.8285pt>
+<DensiteR1.png, id=123, 535.5207pt x 328.8285pt>
 File: DensiteR1.png Graphic file (type png)
 <use DensiteR1.png>
 Package pdftex.def Info: DensiteR1.png  used on input line 181.
@@ -601,29 +608,29 @@ T1/cmr/m/n/10.95 cal-cule bien l'écart-type se-lon la for-mule $\OML/cmm/m/it/1
  []
 
 [5 <./DensiteR1.png>]
-<FitGaussienR1.png, id=131, 409.7709pt x 328.8285pt>
+<FitGaussienR1.png, id=139, 409.7709pt x 328.8285pt>
 File: FitGaussienR1.png Graphic file (type png)
 <use FitGaussienR1.png>
 Package pdftex.def Info: FitGaussienR1.png  used on input line 209.
 (pdftex.def)             Requested size: 218.51521pt x 175.35202pt.
-<FitGaussienR2.png, id=132, 411.2163pt x 328.8285pt>
+<FitGaussienR2.png, id=140, 411.2163pt x 328.8285pt>
 File: FitGaussienR2.png Graphic file (type png)
 <use FitGaussienR2.png>
 Package pdftex.def Info: FitGaussienR2.png  used on input line 216.
 (pdftex.def)             Requested size: 218.51521pt x 174.73988pt.
-<FitGaussienCumulatifR1.png, id=135, 409.7709pt x 328.8285pt>
+<FitGaussienCumulatifR1.png, id=143, 409.7709pt x 328.8285pt>
 File: FitGaussienCumulatifR1.png Graphic file (type png)
 <use FitGaussienCumulatifR1.png>
 Package pdftex.def Info: FitGaussienCumulatifR1.png  used on input line 230.
 (pdftex.def)             Requested size: 218.51521pt x 175.35202pt.
-<FitGaussienCumulatifR2.png, id=136, 411.2163pt x 328.8285pt>
+<FitGaussienCumulatifR2.png, id=144, 411.2163pt x 328.8285pt>
 File: FitGaussienCumulatifR2.png Graphic file (type png)
 <use FitGaussienCumulatifR2.png>
 Package pdftex.def Info: FitGaussienCumulatifR2.png  used on input line 237.
 (pdftex.def)             Requested size: 218.51521pt x 174.73988pt.
  [6 <./FitGaussienR1.png> <./FitGaussienR2.png> <./FitGaussienCumulatifR1.png> 
 <./FitGaussienCumulatifR2.png>]
-<correlation_rameaux.png, id=149, 462.528pt x 346.896pt>
+<correlation_rameaux.png, id=157, 462.528pt x 346.896pt>
 File: correlation_rameaux.png Graphic file (type png)
 <use correlation_rameaux.png>
 Package pdftex.def Info: correlation_rameaux.png  used on input line 269.
@@ -636,17 +643,17 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: Reference `fig:RVB' on page 8 undefined on input line 278.
 
-<ComposanteRouge.png, id=156, 380.8629pt x 291.2481pt>
+<ComposanteRouge.png, id=164, 380.8629pt x 291.2481pt>
 File: ComposanteRouge.png Graphic file (type png)
 <use ComposanteRouge.png>
 Package pdftex.def Info: ComposanteRouge.png  used on input line 284.
 (pdftex.def)             Requested size: 218.51521pt x 167.09749pt.
-<ComposanteVerte.png, id=157, 380.8629pt x 291.2481pt>
+<ComposanteVerte.png, id=165, 380.8629pt x 291.2481pt>
 File: ComposanteVerte.png Graphic file (type png)
 <use ComposanteVerte.png>
 Package pdftex.def Info: ComposanteVerte.png  used on input line 291.
 (pdftex.def)             Requested size: 218.51521pt x 167.09749pt.
-<ComposanteBleue.png, id=158, 380.8629pt x 291.2481pt>
+<ComposanteBleue.png, id=166, 380.8629pt x 291.2481pt>
 File: ComposanteBleue.png Graphic file (type png)
 <use ComposanteBleue.png>
 Package pdftex.def Info: ComposanteBleue.png  used on input line 297.
@@ -659,30 +666,30 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: Reference `fig:histoRVB' on page 9 undefined on input line 304.
 
-<DensiteR.png, id=167, 438.6789pt x 328.8285pt>
+<DensiteR.png, id=175, 438.6789pt x 328.8285pt>
 File: DensiteR.png Graphic file (type png)
 <use DensiteR.png>
 Package pdftex.def Info: DensiteR.png  used on input line 310.
 (pdftex.def)             Requested size: 218.51521pt x 163.79669pt.
-<DensiteG.png, id=168, 435.7881pt x 328.8285pt>
+<DensiteG.png, id=176, 435.7881pt x 328.8285pt>
 File: DensiteG.png Graphic file (type png)
 <use DensiteG.png>
 Package pdftex.def Info: DensiteG.png  used on input line 317.
 (pdftex.def)             Requested size: 218.51521pt x 164.88046pt.
-<DensiteB.png, id=169, 439.4016pt x 328.8285pt>
+<DensiteB.png, id=177, 439.4016pt x 328.8285pt>
 File: DensiteB.png Graphic file (type png)
 <use DensiteB.png>
 Package pdftex.def Info: DensiteB.png  used on input line 323.
 (pdftex.def)             Requested size: 218.51521pt x 163.52574pt.
 [9 <./ComposanteRouge.png> <./ComposanteVerte.png> <./ComposanteBleue.png>]
-<correlationRB.png, id=179, 409.7709pt x 329.5512pt>
+<correlationRB.png, id=187, 409.7709pt x 329.5512pt>
 File: correlationRB.png Graphic file (type png)
 <use correlationRB.png>
 Package pdftex.def Info: correlationRB.png  used on input line 336.
 (pdftex.def)             Requested size: 341.43306pt x 274.60352pt.
 
 [10 <./DensiteR.png> <./DensiteG.png> <./DensiteB.png>]
-<Autocorrel12.png, id=190, 417.7206pt x 328.8285pt>
+<Autocorrel12.png, id=198, 417.7206pt x 328.8285pt>
 File: Autocorrel12.png Graphic file (type png)
 <use Autocorrel12.png>
 Package pdftex.def Info: Autocorrel12.png  used on input line 362.
@@ -696,55 +703,103 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `tab:resultatsCorrelRB' on page 12 undefined on input 
 line 374.
 
-[12 <./Autocorrel12.png>] [13] (CR_TP1_SDLC.aux)
+[12 <./Autocorrel12.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 389.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\pi' on input line 389.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 389.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 389.
+
+<Histogramme_Tension_Radio.png, id=216, 463.9734pt x 328.8285pt>
+File: Histogramme_Tension_Radio.png Graphic file (type png)
+<use Histogramme_Tension_Radio.png>
+Package pdftex.def Info: Histogramme_Tension_Radio.png  used on input line 394.
+
+(pdftex.def)             Requested size: 341.43306pt x 241.97957pt.
+<Histogramme_Densite_Tension_Radio.png, id=217, 587.5551pt x 328.8285pt>
+File: Histogramme_Densite_Tension_Radio.png Graphic file (type png)
+<use Histogramme_Densite_Tension_Radio.png>
+Package pdftex.def Info: Histogramme_Densite_Tension_Radio.png  used on input l
+ine 401.
+(pdftex.def)             Requested size: 341.43306pt x 191.09195pt.
+[13 <./Histogramme_Tension_Radio.png>]
+<AutocorrelRadio.png, id=227, 409.7709pt x 328.8285pt>
+File: AutocorrelRadio.png Graphic file (type png)
+<use AutocorrelRadio.png>
+Package pdftex.def Info: AutocorrelRadio.png  used on input line 409.
+(pdftex.def)             Requested size: 341.43306pt x 274.00133pt.
+<MoyenneGlissanteRadio.png, id=229, 416.2752pt x 328.8285pt>
+File: MoyenneGlissanteRadio.png Graphic file (type png)
+<use MoyenneGlissanteRadio.png>
+Package pdftex.def Info: MoyenneGlissanteRadio.png  used on input line 417.
+(pdftex.def)             Requested size: 341.43306pt x 269.72139pt.
+ [14 <./Histogramme_Densite_Tension_Radio.png> <./AutocorrelRadio.png>]
+<EcartTypeGlissantRadio.png, id=239, 416.2752pt x 328.8285pt>
+File: EcartTypeGlissantRadio.png Graphic file (type png)
+<use EcartTypeGlissantRadio.png>
+Package pdftex.def Info: EcartTypeGlissantRadio.png  used on input line 426.
+(pdftex.def)             Requested size: 341.43306pt x 269.72139pt.
+ [15 <./MoyenneGlissanteRadio.png> <./EcartTypeGlissantRadio.png>] (CR_TP1_SDLC
+.aux)
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-12-24>
+L3 programming layer <2026-04-28>
  ***********
 
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `CR_TP1_SDLC.out' has not changed.
-(rerunfilecheck)             Checksum: 55BA7598C6D9FC6E47612960339CC643;2428.
+(rerunfilecheck)             Checksum: DB38F44D361B83CC15F6D5361CF70E74;2911.
  ) 
 Here is how much of TeX's memory you used:
- 13870 strings out of 467871
- 230385 string characters out of 5418376
- 656806 words of memory out of 5000000
- 42552 multiletter control sequences out of 15000+600000
- 643140 words of font info for 68 fonts, out of 8000000 for 9000
+ 13980 strings out of 467683
+ 233584 string characters out of 5414238
+ 662869 words of memory out of 5000000
+ 42839 multiletter control sequences out of 15000+600000
+ 644504 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,938b,604s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx
-1095.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecbx1000.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecxc1000.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecrm0900.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Admin\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Admin\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Admin\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Admin\
-AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\
-Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\
-Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk
-><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mex10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmmi10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmmi6.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Admin/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Admin/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Admin/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Adm
-in/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/U
-sers/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.p
-fb>
-Output written on CR_TP1_SDLC.pdf (14 pages, 1183746 bytes).
+ <C:\Users\Lucile\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecb
+x1095.pk> <C:\Users\Lucile\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
+600\ecbx1000.pk> <C:\Users\Lucile\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\ecxc1000.pk> <C:\Users\Lucile\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\ecrm0900.pk> <C:\Users\Lucile\AppData\Local\MiKTeX\fonts/pk/l
+jfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\Lucile\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\Lucile\AppData\Local\MiK
+TeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Lucile\AppData\Lo
+cal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Lucile\App
+Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Luc
+ile\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Us
+ers\Lucile\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk>
+ <C:\Users\Lucile\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2
+074.pk> <C:\Users\Lucile\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecrm1200.pk><C:/Users/Lucile/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmex10.pfb><C:/Users/Lucile/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Lucile/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Lucile/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Lucile/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Lucile/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/User
+s/Lucile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+<C:/Users/Lucile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mr8.pfb><C:/Users/Lucile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb><C:/Users/Lucile/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmsy6.pfb><C:/Users/Lucile/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on CR_TP1_SDLC.pdf (16 pages, 1335002 bytes).
 PDF statistics:
- 638 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 217 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 697 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
 

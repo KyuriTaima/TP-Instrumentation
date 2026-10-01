@@ -386,6 +386,53 @@
 		\end{tabular}
 	\end{table}
 	
+	\section{TP 3: Observation de la radiosource $\pi^*$}
+	\subsection{Observation à 10 GHz avec Rameau}
+	On importe les mesures radios enregistrées avec Rameau, le fichier est composé de 700 pas de temps et des 700 mesures de tension associées. On trace l'histogramme des mesures en figure \ref{fig:histogramme_radio} et l'histogramme normalisé des densités de probabilité des mesures en figure \ref{fig:histogramme_densite_radio}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{Histogramme_Tension_Radio.png}
+		\caption{Histogramme des occurrences de valeurs de tension sur les mesures radio}
+		\label{fig:histogramme_radio}
+	\end{figure}
+	L'histogramme ressemble à un histogramme gaussien, avec $N_{mesures} >> 1$, $p << 1$, et une moyenne plus grande que 10, on peut approcher la densité de probabilité par une loi normale.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{Histogramme_Densite_Tension_Radio.png}
+		\caption{Histogramme des densités de probabilité d'obtenir une valeur de tension sur les mesures radio}
+		\label{fig:histogramme_densite_radio}
+	\end{figure}
+	
+	On détermine maintenant la fonction d'auto-corrélation des mesures radios par Rameau tracée en figure \ref{fig:autocorrelRadio}. On voit une courbe représentative d'une mesure sans auto-corrélation, avec une auto-corrélation élevée en début et en fin de pas de temps. On ne peut cependant pas en conclure que les mesures sont indépendantes car une décorrélation n'implique pas toujours une indépendance. 
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{AutocorrelRadio.png}
+		\caption{Fonction d'auto-corrélation des mesures radios par Rameau}
+		\label{fig:autocorrelRadio}
+	\end{figure}
+	
+	On trace maintenant l'évolution de la moyenne expérimentale en fonction du nombre de mesures prises en compte en figure \ref{fig:moyenne_glissante_radio}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{MoyenneGlissanteRadio.png}
+		\caption{Evolution de la moyenne expérimentale en fonction du nombre de mesures}
+		\label{fig:moyenne_glissante_radio}
+	\end{figure}
+	
+	On constate que la moyenne fluctue beaucoup lorsque l'on a peu de mesures et se stabilise à partir de $N \approx 300$ mesures. Théorème central limite avec ses conditions d'utilisation => sigma/racine(N), la distribution de la moyenne tend vers une gaussienne pour de grandes valeurs de N.
+	On trace ensuite l'évolution de l'écart-type expérimental en fonction du nombre de mesures en figure \ref{fig:ecartType_glissant_radio}.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{EcartTypeGlissantRadio.png}
+		\caption{Evolution de l'écart-type expérimental en fonction du nombre de mesures}
+		\label{fig:ecartType_glissant_radio}
+	\end{figure}
+	
+	On suppose que la précision expérimentale est connue et vaut $\sigma = 0.2421 \ \mathrm{V}$. 
+	
+	
+	
+	
 	
 	
 \end{document}	
