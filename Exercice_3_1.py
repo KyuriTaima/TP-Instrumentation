@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import statistics as st
 from matplotlib.pyplot import grid
+from scipy.special import gamma
 
 mesures_radio = np.loadtxt('obs-radio.txt')
 print("Forme des mesures radio :", mesures_radio.shape)
@@ -70,35 +71,60 @@ plt.savefig('EcartTypeGlissantRadio.png', bbox_inches='tight')
 plt.show()
 
 
-# Construction de la densité de probabilité à posteriori de la tension v connaissant la précision instrumenetale sigma = 0,2421 pour 1, 10, 100 et 700 mesures
+# Construction de la densité de probabilité à posteriori
 sigma = 0.2421
-# Moyenne des carrés des mesures
-m2 = np.mean(tension**2)
-# Carré des moyennes des mesures
-m1 = np.mean(tension)**2
-s = np.sqrt(m2-m1)
-# Moyenne arithmétique des mesures
 m = np.mean(tension)
-n = tension.size
-# on boucle sur les valeurs de n pour construire les distributions à posteriori
-x_radio = np.linspace(tension.min(), tension.max(), 100)
-step = 0.01
-x_radio = np.arange(tension.min(), tension.max(), step)
-gauss = lambda x,m,s,n: ((1/np.sqrt(2*np.pi*sigma))**n)*np.exp(-n*s**2/(2*sigma**2)*((x-m)**2/(sigma/np.sqrt(n))**2))
+n_total = tension.size
+
+# Création d'un axe x suffisamment large pour voir les cloches
+x_radio = np.linspace(tension.min(), tension.max(), 1000)
+
+# Définition de la densité de probabilité a posteriori exacte (déjà normalisée)
+# L'écart-type a posteriori est sigma / sqrt(n)
+gauss_posteriori = lambda x, m_mesure, n_mesure: (1 / (np.sqrt(2 * np.pi) * (sigma / np.sqrt(n_mesure)))) * np.exp(-0.5 * ((x - m_mesure) / (sigma / np.sqrt(n_mesure)))**2)
+
 for n in [1, 10, 100, 700]:
-    f_tension_a_posteriori = gauss(x_radio, mvec[n-1], np.sqrt(-mvec[n-1]**2 + np.mean(tension[:n]**2)), n)
-    # Etape 1 Construction de la distribution à priori des erreurs
-    # f_tension_a_posteriori = []
-    # for i in range(x_radio.size):
-        # f_tension_a_posteriori.append(((1/np.sqrt(2*np.pi*sigma))**n)*np.exp(-n*s**2/(2*sigma**2)*((x_radio[i]-mvec[n-1])**2/(sigma/np.sqrt(n))**2)))
-    # normalisation de la distribution à posteriori
-    f_tension_a_posteriori = f_tension_a_posteriori/(np.sum(f_tension_a_posteriori)*step)
-    plt.plot(x_radio,f_tension_a_posteriori,label="n = "+str(n))
-plt.title("Densité de probabilité à posteriori de la tension v connaissant la précision instrumentale sigma = 0,2421 pour n mesures")
+    # On récupère la moyenne glissante pour n mesures
+    moyenne_n = mvec[n-1]
+    print(f"Moyenne glissante pour n = {n} : {moyenne_n:.2f} V")
+    print(f"Écart-type glissant pour n = {n} : {svec[n-1]:.2f} V")
+    print(f"Écart-type a posteriori pour n = {n} : {sigma / np.sqrt(n):.2f} V")
+    
+    # Calcul de la distribution
+    f_tension_a_posteriori = gauss_posteriori(x_radio, moyenne_n, n)
+    
+    plt.plot(x_radio, f_tension_a_posteriori, label=f"n = {n}")
+
+plt.title("Densité de probabilité a posteriori (sigma = 0.2421)")
 plt.grid(True)
 plt.xlabel("Tension (V)")
 plt.ylabel("Densité de probabilité")
-plt.axvline(x=m, color='r', linestyle='--', label='Moyenne des mesures = {:.2f} V'.format(m))
+plt.axvline(x=m, color='r', linestyle='--', label=f'Moyenne finale = {m:.2f} V')
 plt.legend()
-plt.savefig('DensiteProbabilitePosterioriRadio_n_'+str(n)+'.png', bbox_inches='tight')
+plt.savefig('DensiteProbabilitePosterioriRadio.png', bbox_inches='tight')
+plt.show()
+
+# Densité de probabilité a posteriori pour n = 4, 10 et 25 en utilisant une loi de Student
+
+student = lambda x, m, s, n: gamma(0.5 * n) / gamma(0.5 * (n - 1)) / gamma(0.5) / s * (1 + ((x - m) / s)**2)**(-0.5 * n)
+
+for n in [4, 10, 25]:
+    # On récupère la moyenne glissante pour n mesures
+    moyenne_n = mvec[n-1]
+    print(f"Moyenne glissante pour n = {n} : {moyenne_n:.2f} V")
+    print(f"Écart-type glissant pour n = {n} : {svec[n-1]:.2f} V")
+    print(f"Écart-type a posteriori pour n = {n} : {sigma / np.sqrt(n-3):.2f} V")
+    
+    # Calcul de la distribution
+    f_tension_a_posteriori_student = student(x_radio, moyenne_n, svec[n-1], n)
+    
+    plt.plot(x_radio, f_tension_a_posteriori_student, label=f"n = {n}")
+
+plt.title("Densité de probabilité a posteriori (loi de Student)")
+plt.grid(True)
+plt.xlabel("Tension (V)")
+plt.ylabel("Densité de probabilité")
+plt.axvline(x=m, color='r', linestyle='--', label=f'Moyenne finale = {m:.2f} V')
+plt.legend()
+plt.savefig('StudentRadioDensiteProbabilitePosteriori.png', bbox_inches='tight')
 plt.show()

@@ -13,6 +13,9 @@
 \usepackage{subcaption}
 \usepackage[font=small, labelfont=bf]{caption}
 \usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{hyperref}
 \onehalfspacing
 \fancyhf{}
 
@@ -428,9 +431,55 @@
 		\label{fig:ecartType_glissant_radio}
 	\end{figure}
 	
-	On suppose que la précision expérimentale est connue et vaut $\sigma = 0.2421 \ \mathrm{V}$. 
+	On suppose que la précision expérimentale est connue et vaut $\sigma = 0.2421 \ \mathrm{V}$. On représente la densité de probabilité a posteriori de la tension \textit{v}, image du flux de la radio-source pour les 1, 10, 100 et 700 premières mesures en figure \ref{fig:densitePosterioriPi}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{DensiteProbabilitePosterioriRadio.png}
+		\caption{Densité de probabilité à posteriori de la tension \textit{v} pour n mesures}
+		\label{fig:densitePosterioriPi}
+	\end{figure}
 	
+	On prend pour estimateur de la tension \textit{v} la distribution a posteriori de la tension pour les différentes valeurs de n. La valeur de \textit{v} proposée sera donc la moyenne de la distribution avec une incertitude de $\frac{\sigma}{\sqrt{n}}$.
 	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{lc}
+			\toprule
+			$n$ & Tension $v$ (V) \\
+			\midrule
+			1   & $2.90 \pm 0.24$ \\
+			10  & $3.01 \pm 0.08$ \\
+			100 & $3.11 \pm 0.02$ \\
+			700 & $3.14 \pm 0.01$ \\
+			\bottomrule
+		\end{tabular}
+		\caption{Évolution de l'estimateur de la tension et de sa barre d'erreur standard ($\sigma/\sqrt{n}$) en fonction de la taille de l'échantillon $n$.}
+		\label{tab:mesures_tension}
+	\end{table}
+	
+	On considère maintenant que l'incertitude est inconnue, on inclue donc le terme d'inférence dans la règle de Bayes qui permet d'établir la distribution a posteriori de la tension. Cette distribution suit une loi de Student que l'on représente pour n = 4 , 10 et 25 en figure \ref{fig:distributionPosterioriStudent}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{StudentRadioDensiteProbabilitePosteriori.png}
+		\caption{Densité de probabilité à posteriori de la tension \textit{v} pour n mesures ne connaissant pas la précision expérimentale}
+		\label{fig:distributionPosterioriStudent}
+	\end{figure}
+	
+	On choisit comme estimateur la moyenne pour chaque valeur de n avec une incertitude de $\frac{s}{\sqrt{n-3}}$
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{lc}
+			\toprule
+			$n$ & Tension $v$ (V) \\
+			\midrule
+			4   & $3.02 \pm 0.24$ \\
+			10  & $3.01 \pm 0.09$ \\
+			25  & $3.05 \pm 0.05$ \\
+			\bottomrule
+		\end{tabular}
+		\caption{Évolution de l'estimateur de la tension et de sa barre d'erreur standard ($\sigma/\sqrt{3-n}$) en fonction de la taille de l'échantillon $n$ pour une précision instrumentale inconnue.}
+		\label{tab:mesures_tension_student}
+	\end{table}
 	
 	
 	
