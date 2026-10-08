@@ -83,6 +83,6 @@ plt.legend()
 plt.show()
 
 moyenne_source = moyenne_source_fond - moyenne_fond
-ecart_type_source = np.sqrt(ecart_type_source_fond**2 + ecart_type_fond**2)
+ecart_type_source = np.sqrt((ecart_type_source_fond**2)/len(source) + (ecart_type_fond**2)/len(fond))
 print(f"Signal de la source avec le fond soustrait : {moyenne_source:.2f} photo-électrons")
 print(f"Écart-type du signal de la source avec le fond soustrait : {ecart_type_source:.2f} photo-électrons")

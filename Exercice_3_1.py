@@ -111,9 +111,9 @@ student = lambda x, m, s, n: gamma(0.5 * n) / gamma(0.5 * (n - 1)) / gamma(0.5) 
 for n in [4, 10, 25]:
     # On récupère la moyenne glissante pour n mesures
     moyenne_n = mvec[n-1]
-    print(f"Moyenne glissante pour n = {n} : {moyenne_n:.2f} V")
-    print(f"Écart-type glissant pour n = {n} : {svec[n-1]:.2f} V")
-    print(f"Écart-type a posteriori pour n = {n} : {sigma / np.sqrt(n-3):.2f} V")
+    print(f"Moyenne glissante pour n = {n} : {moyenne_n:.4f} V")
+    print(f"Écart-type glissant pour n = {n} : {svec[n-1]:.4f} V")
+    print(f"Écart-type a posteriori pour n = {n} : {svec[n-1] / np.sqrt(n-3):.4f} V")
     
     # Calcul de la distribution
     f_tension_a_posteriori_student = student(x_radio, moyenne_n, svec[n-1], n)
