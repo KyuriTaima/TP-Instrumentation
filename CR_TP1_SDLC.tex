@@ -481,6 +481,30 @@
 		\label{tab:mesures_tension_student}
 	\end{table}
 	
+	\subsection{Exercice 3.2}
+	
+	On effectue deux groupes de mesures différentes, 400 pauses sur le fond du ciel, sans la source, et 100 mesures de la source. L'objectif est d'obtenir la contribution de la source sans le bruit de fond du ciel et d'estimer le rapport signal sur bruit.
+	On sait que l'espérance est linéaire, donc l'espérance du signal avec la source est l'espérance du signal total auquel on retire l'espérance du bruit de fond.
+	$\mu_{source} = \mu_{source + fond} - \mu_{fond}$
+	Cependant l'écart-type n'est pas linéaire, on doit propager les incertitudes du fond et du signal + fond pour avoir l'incertitude sur le signal: $$\sqrt{\sigma_{fond+source}^2 + \sigma_{fond}^2}$$
+	On obtient:
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{lc}
+			\toprule
+			$n$ & Nombre de photo-électrons $v$ (V) \\
+			\midrule
+			Fond   & $17559 \pm 128$ \\
+			Source + Fond  & $17908 \pm 145$ \\
+			Source  & $309 \pm 193$ \\
+			\bottomrule
+		\end{tabular}
+		\caption{Nombre de photo-électrons détectées pour les mesures du fond, de la source avec le fond et de la source sans le fond.}
+		\label{tab:mesures_visible}
+	\end{table}
+	
+	Le rapport signal sur bruit choisit est la moyenne de la valeur de la source divisée par son incertitude: $\frac{S}{B} = \frac{\mu}{\sigma} = 1.6$. cette valeur est faible et indique une faible précision de la mesure.
 	
 	
 	

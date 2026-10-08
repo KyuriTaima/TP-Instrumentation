@@ -88,7 +88,7 @@ for n in [1, 10, 100, 700]:
     moyenne_n = mvec[n-1]
     print(f"Moyenne glissante pour n = {n} : {moyenne_n:.2f} V")
     print(f"Écart-type glissant pour n = {n} : {svec[n-1]:.2f} V")
-    print(f"Écart-type a posteriori pour n = {n} : {sigma / np.sqrt(n):.2f} V")
+    print(f"Écart-type a posteriori pour n = {n} : {sigma / np.sqrt(n):.4f} V")
     
     # Calcul de la distribution
     f_tension_a_posteriori = gauss_posteriori(x_radio, moyenne_n, n)
