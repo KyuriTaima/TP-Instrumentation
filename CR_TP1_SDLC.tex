@@ -514,7 +514,106 @@
 	On effectue $n = 10 000$ mesure de la vitesse radiale du soleil avec l'instrument GOLF avec une période d'échantillonage de 20s, donc une fréquence de 1 mesure / 20 sec, $F_e = \frac{1}{T_e} = 0.05 Hz$. La durée d'observation est de $D = 199 980 s = 55.55 heures$.
 	On utilise la FFT pour obtenir la Transformée de Fourier Discrète, avec un pas de fréquence de: $\delta F_e = \frac{F_e}{N_{mesures}} = \frac{0.05}{10000} = 5 \ \mathrm{\mu Hz}$. la fréquence de Nyquist suffisant pour pouvoir faire la transformée de Fourier est $\nu_e \geq 2\nu_{max}$; donc $\nu_{max} \leq \frac{F_e}{2} = 2.5 \ \mathrm{\mu Hz}$
 	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{VitesseRadialeGOLF.png}
+		\caption{Mesures de vitesses radiales du soleil par GOLF}
+		\label{fig:vitesseRadialeGOLF}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{FFT_VitesseRadialeGOLF.png}
+		\caption{Transformée de Fourier des vitesses radiales du soleil par GOLF}
+		\label{fig:FFT_VitesseRadialeGOLF.png}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{DSE_VitesseRadialeGOLF.png}
+		\caption{Densité spectrale en énergie des vitesses radiales du soleil par GOLF}
+		\label{fig:DSE_VitesseRadialeGOLF}
+	\end{figure}
+	
 	Entre 2 et 5 mHz, on voit des pics de fréquences espacées par un même pas, la fréquence associée au plus grand pic est de $3.25 \ \mathrm{mHz}$, soit une période des modes P du soleil de $T_{P} = 308 \ \mathrm{s} \approx 5 \ \mathrm{minutes}$.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{DSE_VitesseRadialeGOLF_zoom.png}
+		\caption{Densité spectrale en énergie des vitesses radiales du soleil par GOLF - Zoom sur les modes P du Soleil}
+		\label{fig:DSE_VitesseRadialeGOLF_zoom}
+	\end{figure}
+	
+	On recalcule la DSE en ne prenant que les 1000 premières mesures en figure \ref{fig:DSE_VitesseRadialeGOLF_1000}.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{DSE_VitesseRadialeGOLF_1000.png}
+		\caption{Densité spectrale en énergie des vitesses radiales du soleil par GOLF - Zoom sur les 1000 premières mesures}
+		\label{fig:DSE_VitesseRadialeGOLF_1000}
+	\end{figure}
+	
+	\subsection{Exercice 4.2}
+	On effectue une nouvelle série de mesures de la contrepartie visible de $\pi$* regroupées dans le fichier "obs-vis2.txt". Les 500 premières mesures sont orientés vers le fond sans source tandis que les 200 mesures suivantes sont orientés vers la source.
+	L'histogramme des mesures du nombre de photo-électrons pour les deux séries de mesures est représenté en figure \ref{fig:Histogramme_Photo_Electrons_Visible_2}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{Histogramme_Photo_Electrons_Visible_2.png}
+		\caption{Histogramme des occurrences de valeurs de photo-électrons sur les mesures du visible (2ème série)}
+		\label{fig:Histogramme_Photo_Electrons_Visible_2}
+	\end{figure}
+	
+	On trace la mesure du fond uniquement en prenant les 500 premières valeurs en figure \ref{fig:Mesures_Fond_2}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{Mesures_Fond_2.png}
+		\caption{Mesures de photo-électrons sur le fond (2ème série)}
+		\label{fig:Mesures_Fond_2}
+	\end{figure}
+	
+	On trace ensuite les mesures obtenues par l'observation de la source en prenant les 200 dernières mesures en figure \ref{fig:Mesures_Source_2}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{Mesures_Source_2.png}
+		\caption{Mesures de photo-électrons sur la source (2ème série)}
+		\label{fig:Mesures_Source_2}
+	\end{figure}
+	
+	On trace les graphiques d'autocorrélation des deux séries de mesures afin de savoir si on peut utiliser la Transformée de Fourier.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{AutocorrelFond_2.png}
+		\caption{Fonctions d'autocorrélation du fond (2ème série)}
+		\label{fig:AutocorrelFond_2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{AutocorrelSource_2.png}
+		\caption{Fonctions d'autocorrélation de la source (2ème série)}
+		\label{fig:AutocorrelSource_2}
+	\end{figure}
+	
+	Les signaux ne sont pas auto-corrélés donc on peut appliquer la transformée de Fourier par l'algorithme de FFT. On soustrait la moyenne afin de centrer le signal sur 0 et de retirer la moyenne.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{FFT_Mesures_Fond.png}
+		\caption{Transformée de Fourier des mesures du fond (2ème série)}
+		\label{fig:FFT_Mesures_Fond}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{FFT_Mesures_Source.png}
+		\caption{Transformée de Fourier des mesures de la source (2ème série)}
+		\label{fig:FFT_Mesures_Source}
+	\end{figure}
+	
+	
+	
+	
 	
 	
 	
