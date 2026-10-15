@@ -74,11 +74,12 @@ plt.savefig('DSE_VitesseRadialeGOLF_zoom.png', bbox_inches='tight')
 plt.show()
 
 # Calcul de la DSE en utilisant uniquement les 1000 premières mesures
-fft_vitesses_1000 = fft(vitesses_centree[:1000])
+vitesses_centree_1000 = vitesses_centree[:1000] - np.mean(vitesses_centree[:1000])
+fft_vitesses_1000 = fft(vitesses_centree_1000)
 dse_1000 = (np.abs(fft_vitesses_1000)**2)
-abs_frequences_1000 = np.arange(0, fft_vitesses_1000.shape[0]) * pas_frequence
-#plt.plot(abs_frequences_1000 * 1000, dse_1000, "r.-")
-plt.stem(np.abs(fft_vitesses_1000))
+abs_frequences_1000 = np.arange(0, frequence_echantillonage, frequence_echantillonage/len(fft_vitesses_1000))
+plt.plot(abs_frequences_1000 * 1000, dse_1000, "r.-")
+#plt.stem(np.abs(dse_1000))
 plt.xlabel("Fréquence (mHz)")
 plt.ylabel("Densité spectrale en énergie (m/s)^2/Hz")
 plt.title("Densité spectrale en énergie des vitesses radiales du soleil par GOLF - Zoom sur les 1000 premières mesures")

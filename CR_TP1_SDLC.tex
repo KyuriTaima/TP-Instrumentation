@@ -611,6 +611,16 @@
 		\label{fig:FFT_Mesures_Source}
 	\end{figure}
 	
+	On distingue un pic important à la fréquence de 0.1 cycle par pause pour le fond sans source et pour le fond avec source. On peut donc en conclure que la sinusoide qui pollue le signal est présente autant sur la mesure du fond que sur la mesure du fond avec la source.
+	On filtre le signal en forçant la valeur de la transformée de Fourier du signal, pour la fréquence 0.1, à 0. Ainsi on retire la sinusoide qui pollue notre signal. on effectue ensuite une transformée de Fourier inverse afin de récupérer le signal dans l'espace des temps
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=12cm]{Histogramme_Signal_Filtre_Source.png}
+		\caption{Histogramme du signal filtré de la source et comparaison avec le signal non filtré (2ème série)}
+		\label{fig:Histogramme_Signal_Filtre_Source}
+	\end{figure}
+	
 	
 	
 	
