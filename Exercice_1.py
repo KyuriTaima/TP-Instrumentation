@@ -68,13 +68,14 @@ plt.savefig('TensionTrieeR1R2.png', bbox_inches='tight')
 plt.show()
 
 # Histogramme des mesures
-hist1 = plt.hist(tension1, bins=25, density=False)
-hist2 = plt.hist(tension2, bins=25, density=False, alpha=0.5)
+hist1 = plt.hist(tension1, bins=50, density=False, label="Rameau 1")
+hist2 = plt.hist(tension2, bins=50, density=False, alpha=0.5, label="Rameau 2")
 plt.grid(True)
 plt.xlabel('Tension (V)')
 plt.ylabel('Fréquence')
 plt.title('Histogramme des tensions sur Rameau 1 & 2')
 plt.savefig('HistogrammeR1R2.png', bbox_inches='tight')
+plt.legend()
 plt.show()
 
 # Statistiques des mesures
@@ -93,7 +94,7 @@ print("Nombre de valeurs uniques sur Rameau 2 :", len(np.unique(tension2)))
 print("Écart-type de la tension sur Rameau 2 :", np.std(tension2))
 
 # Densité de probabilité
-hist1 = plt.hist(tension1, bins=25, density=True)
+hist1 = plt.hist(tension1, bins=50, density=True)
 plt.grid(True)
 plt.xlabel('Tension (V)')
 plt.ylabel('Densité de probabilité')
